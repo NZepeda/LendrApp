@@ -1,5 +1,6 @@
 import UIKit
 import Alamofire
+import AlamofireImage
 
 class PostTableViewCell: UITableViewCell {
     
@@ -20,14 +21,23 @@ class PostTableViewCell: UITableViewCell {
         self.postRateLabel.text = rate;
         self.postImageUrl = postImageUrl;
         self.userImageUrl = userImageUrl;
+        
+        setPostImage()
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
     
-    func setImage(){
-        Alamofire.request(<#T##url: URLConvertible##URLConvertible#>);
+    func setPostImage(){
+        
+        Alamofire.request("https://httpbin.org/image/png").responseImage { response in
+            debugPrint(response)
+
+            if let image = response.result.value {
+                self.postImageView.image = image;
+            }
+        }
     }
 
 }

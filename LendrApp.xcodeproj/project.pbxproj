@@ -69,6 +69,7 @@
 		6B035F981E14EAA900679E11 /* LendrApp */ = {
 			isa = PBXGroup;
 			children = (
+				6B57C22F1E1B8C6B00757E84 /* Cells */,
 				6B57C22A1E1B479700757E84 /* Controllers */,
 				6B57C2271E1B402300757E84 /* UISubClasses */,
 				6B035FAD1E170DB900679E11 /* Model */,
@@ -78,7 +79,6 @@
 				6B035FA01E14EAA900679E11 /* Assets.xcassets */,
 				6B035FA21E14EAA900679E11 /* LaunchScreen.storyboard */,
 				6B035FA51E14EAA900679E11 /* Info.plist */,
-				6B57C22B1E1B489A00757E84 /* PostTableViewCell.swift */,
 			);
 			path = LendrApp;
 			sourceTree = "<group>";
@@ -105,6 +105,14 @@
 				6B57C2281E1B476500757E84 /* PostsTableViewController.swift */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6B57C22F1E1B8C6B00757E84 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6B57C22B1E1B489A00757E84 /* PostTableViewCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 		6EFD93AFE68E1155BA1A3543 /* Frameworks */ = {
