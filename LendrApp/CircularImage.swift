@@ -10,4 +10,10 @@ import UIKit
 
 class CircularImage: UIImageView {
 
+    override func draw(_ rect: CGRect) {
+        self.layer.cornerRadius = 20;
+        self.clipsToBounds = true;
+    }
+    
+
 }

@@ -1,4 +1,5 @@
 import UIKit
+import Alamofire
 
 class PostTableViewCell: UITableViewCell {
     
@@ -23,6 +24,10 @@ class PostTableViewCell: UITableViewCell {
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+    }
+    
+    func setImage(){
+        Alamofire.request(<#T##url: URLConvertible##URLConvertible#>);
     }
 
 }
