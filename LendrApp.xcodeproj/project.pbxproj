@@ -16,6 +16,7 @@
 		6B57C2291E1B476500757E84 /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57C2281E1B476500757E84 /* PostsTableViewController.swift */; };
 		6B57C22C1E1B489A00757E84 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57C22B1E1B489A00757E84 /* PostTableViewCell.swift */; };
 		6B57C22E1E1B629000757E84 /* CircularImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57C22D1E1B629000757E84 /* CircularImage.swift */; };
+		6B955DFA1E23180D0067189F /* playlist-interface.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6B955DF91E23180D0067189F /* playlist-interface.jpeg */; };
 		BC1E96B7FA26E7586883C589 /* Pods_LendrApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AC4A6CF968681495223994 /* Pods_LendrApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,8 @@
 		6B57C2281E1B476500757E84 /* PostsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
 		6B57C22B1E1B489A00757E84 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		6B57C22D1E1B629000757E84 /* CircularImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularImage.swift; sourceTree = "<group>"; };
+		6B955DF81E2313880067189F /* LendrApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LendrApp-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		6B955DF91E23180D0067189F /* playlist-interface.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "playlist-interface.jpeg"; sourceTree = "<group>"; };
 		D76A3B324CD36B7CD282E475 /* Pods-LendrApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LendrApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LendrApp/Pods-LendrApp.release.xcconfig"; sourceTree = "<group>"; };
 		DE751B9E06B5770A2810ECCE /* Pods-LendrApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LendrApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LendrApp/Pods-LendrApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +80,9 @@
 				6B035F9B1E14EAA900679E11 /* ViewController.swift */,
 				6B035F9D1E14EAA900679E11 /* Main.storyboard */,
 				6B035FA01E14EAA900679E11 /* Assets.xcassets */,
+				6B955DF91E23180D0067189F /* playlist-interface.jpeg */,
 				6B035FA21E14EAA900679E11 /* LaunchScreen.storyboard */,
+				6B955DF81E2313880067189F /* LendrApp-Bridging-Header.h */,
 				6B035FA51E14EAA900679E11 /* Info.plist */,
 			);
 			path = LendrApp;
@@ -198,6 +203,7 @@
 				6B035FA41E14EAA900679E11 /* LaunchScreen.storyboard in Resources */,
 				6B035FA11E14EAA900679E11 /* Assets.xcassets in Resources */,
 				6B035F9F1E14EAA900679E11 /* Main.storyboard in Resources */,
+				6B955DFA1E23180D0067189F /* playlist-interface.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +338,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "LendrApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -373,6 +380,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "LendrApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};

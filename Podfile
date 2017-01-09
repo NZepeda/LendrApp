@@ -6,4 +6,5 @@ target 'LendrApp' do
 pod 'Alamofire', '~> 4.0'
 pod 'AlamofireImage', '~> 3.1'
 pod 'AWSS3', '~> 2.4'
+pod 'AWSCognito', '~> 2.4'
 end
